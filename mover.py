@@ -13,13 +13,13 @@ class Mover(object):
         self._files = []
 
     def get_all_pdfs(self):
-        self._get_files("*pdf")
+        self._get_files("*.pdf")
 
     def get_all_mp4(self):
-        self._get_files("*mp4")
+        self._get_files("*.mp4")
 
     def get_all_png(self):
-        self._get_files("*png")
+        self._get_files("*.png")
 
     def move_files(self):
         """Moves files from one directory to another. But the get get_all for
